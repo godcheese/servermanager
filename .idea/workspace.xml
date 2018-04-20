@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f2c2a3-0417-4ac9-ab1d-2895f9b37dec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,121 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gioov/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindowController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gioov/controller/MainWindowController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-353">
-              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2769#3019#0" expanded="true" />
-                <element signature="e#3018#3019#0" expanded="true" />
-                <element signature="e#3076#3411#0" expanded="true" />
-                <element signature="e#3410#3411#0" expanded="true" />
-                <element signature="method#addButtonOnMouseClickedAction#0;class#MainWindowController#0" />
-                <element signature="e#5592#5736#0" expanded="true" />
-                <element signature="e#5735#5736#0" expanded="true" />
-                <element signature="method#backupProject#0;class#MainWindowController#0" />
-                <element signature="method#parseDateTime#0;class#MainWindowController#0" />
-                <element signature="method#parseCount#0;class#MainWindowController#0" />
-                <element signature="method#forEachIsExist#0;class#MainWindowController#0" />
-                <element signature="e#9537#9718#0" expanded="true" />
-                <element signature="e#9717#9718#0" expanded="true" />
-                <element signature="method#deleteButtonOnMouseClickedAction#0;class#MainWindowController#0" />
-                <element signature="method#editButtonOnMouseClickedAction#0;class#MainWindowController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gioov/util/DatabaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="18" column="172" selection-start-line="18" selection-start-column="172" selection-end-line="18" selection-end-column="172" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#mysqlExportDatabase#0;class#DatabaseUtil#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gioov/util/FileUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getCurrentRootPath#0;class#FileUtil#0" />
-                <element signature="method#filterFileSeparator#0;class#FileUtil#0" />
-                <element signature="method#copyFile#0;class#FileUtil#0" />
-                <element signature="method#copyFile#1;class#FileUtil#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gioov/util/ResourceUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="313">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="209">
+                <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gioov/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="42" selection-start-line="42" selection-start-column="2" selection-end-line="53" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -169,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gioov/common/DragMove.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/window_title_main.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/css/main_window_title.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/gioov/controller/MainWindowTitleController.java" />
@@ -219,6 +112,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/gioov/util/ResourceUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -271,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1369" />
     <option name="height" value="730" />
   </component>
@@ -317,6 +211,11 @@
               <item name="servermanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="servermanager" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="servermanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servermanager" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -352,8 +251,8 @@
       <recent name="com.gioov.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\dev\IdeaProjects\servermanager\data" />
       <recent name="D:\dev\IdeaProjects\servermanager" />
+      <recent name="D:\dev\IdeaProjects\servermanager\data" />
       <recent name="D:\dev\IdeaProjects\servermanager\src\main\resources" />
       <recent name="D:\dev\IdeaProjects\servermanager\scripts" />
       <recent name="D:\dev\IdeaProjects\servermanager\src\main\resources\fxml" />
@@ -558,7 +457,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523859300332</updated>
-      <workItem from="1523859306139" duration="119965000" />
+      <workItem from="1523859306139" duration="120710000" />
     </task>
     <servers />
   </component>
@@ -595,10 +494,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119965000" />
+    <option name="totallyTimeSpent" value="120710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50067025" side_tool="true" weight="0.31623933" />
@@ -649,13 +548,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/javafx-src.zip!/javafx/scene/control/TableView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1876" column="54" selection-start-line="1876" selection-start-column="54" selection-end-line="1876" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1110,11 +1002,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="313">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -1161,7 +1060,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1208,7 +1107,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
