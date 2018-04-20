@@ -1,4 +1,4 @@
-# servermanager
+# Server Manager
 Server Manager 基于 JavaFX 开发的 一款桌面服务器管理软件。
 > 目前版本还可靠，仅供参考学习。
 ### 目前实现功能
