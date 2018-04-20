@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f2c2a3-0417-4ac9-ab1d-2895f9b37dec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +22,7 @@
     <favorites_list name="servermanager" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,6 +195,11 @@
             <path>
               <item name="servermanager" type="b2602c69:ProjectViewProjectNode" />
               <item name="servermanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="servermanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="servermanager" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="servermanager" type="b2602c69:ProjectViewProjectNode" />
@@ -457,7 +447,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523859300332</updated>
-      <workItem from="1523859306139" duration="120710000" />
+      <workItem from="1523859306139" duration="121085000" />
     </task>
     <servers />
   </component>
@@ -494,10 +484,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120710000" />
+    <option name="totallyTimeSpent" value="121085000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50067025" side_tool="true" weight="0.31623933" />
@@ -517,8 +507,8 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.31669044" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.31669044" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3281027" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49791667" visible="true" weight="0.15683647" />
       <window_info anchor="right" id="BPMNPalette" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
@@ -843,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/git_push.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/build_exe.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1009,11 +992,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/git_push.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <first_editor>
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
@@ -1060,7 +1050,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1107,7 +1097,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
