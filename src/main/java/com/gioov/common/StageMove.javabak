@@ -1,0 +1,65 @@
+package com.gioov.common;
+
+import javafx.application.Platform;
+import javafx.event.EventHandler;
+import javafx.scene.effect.Light;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
+import java.awt.*;
+
+/**
+ * @author godcheese [godcheese@outlook.com]
+ * @date 2018/4/16 15:25
+ */
+public class StageMove {
+
+    private Stage stage;
+    private Light.Point point = new Light.Point();
+
+    public StageMove(Stage stage){
+        this.stage = stage;
+    }
+
+    public void bindDrag(Pane pane){
+        pane.setOnMousePressed(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                point.setX(stage.getX() - event.getScreenX());
+                point.setX(stage.getX() - event.getScreenX());
+            }
+        });
+
+
+        pane.setOnMouseReleased(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if(stage.getY() < 0){
+                    stage.setY(0);
+                }
+            }
+        });
+
+
+        pane.setOnMouseDragged(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if(stage.isFullScreen()){
+                    return;
+                }
+                final double x = event.getScreenX() + point.getX();
+                final double y = event.getScreenY() + point.getY();
+
+                Platform.runLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        stage.setX(x);
+                        stage.setY(y);
+                    }
+                });
+            }
+        });
+    }
+
+}
